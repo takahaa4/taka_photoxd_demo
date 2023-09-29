@@ -1,0 +1,151 @@
+/* common */
+body  {
+  background-color: #f4f9ff;
+  color: #333;
+  font-size: 0.875rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 60px auto 0;
+}
+
+.inner {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.sec-title {
+  font-size: 1.125rem;
+  margin-bottom: 10px;
+}
+
+
+/* header */
+#header .site-title {
+  width: 160px;
+  line-height: 0;
+}
+
+#header .site-title a {
+  display: block;
+}
+
+
+/* mainvisual */
+#mainvisual {
+  margin-top: 15px;
+}
+
+
+/* index */
+#index {
+  background: #fff;
+  padding: 30px 0;
+  margin-top: 60px;
+}
+
+#index ol {
+  margin-left: 20px;
+}
+
+#index ol li {
+  margin-bottom: 20px;
+}
+
+#index ol li:last-child {
+  margin-bottom: 0;
+}
+
+
+/* detail */
+#detail {
+  margin-top: 60px;
+}
+
+#detail .flex {
+  display: flex;
+}
+
+#detail .flex img {
+  width: 270px;
+  margin-right: 60px;
+}
+
+#detail .flex .text .content-title {
+  font-size: 1.125rem;
+  margin-bottom: 20px;
+}
+
+#detail .flex .text dl {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px 0;
+  margin-bottom: 25px;
+  border-top: solid 1px #dedede;
+  border-bottom: solid 1px #dedede;
+}
+
+#detail .flex .text dl dt {
+  width: 25%;
+}
+
+#detail .flex .text dl dd {
+  width: 75%;
+}
+
+#detail .flex .text p {
+  margin-bottom: 20px;
+}
+
+#detail .flex .text a {
+  color: #333;
+}
+
+#detail .flex .text a:hover {
+  opacity: .8;
+}
+
+
+/* footer */
+#footer {
+  margin-top: 100px;
+  font-size: 0.625rem;
+  padding: 15px 0;
+}
+
+
+/* SP */
+@media screen and (max-width: 1024px) {
+/* common */
+.inner {
+  padding: 0 40px;
+}
+
+
+/* header */
+#header {
+  padding: 0 10px;
+}
+
+
+/* mainvisual */
+  #mainvisual {
+    padding: 0 10px;
+  }
+}
+
+
+/* detail */
+  #detail .flex {
+    flex-direction: column;
+  }
+
+  #detail .flex img {
+    width: 100%;
+    margin: 0 0 25px 0;
+  }
